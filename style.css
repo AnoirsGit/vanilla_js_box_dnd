@@ -1,0 +1,34 @@
+body {
+    background-color: #ffcc66;
+}
+
+.fill {
+    background-color: #ff6600;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    padding: 5px;
+    margin: 0.875rem;
+    border: 3px darksalmon solid;
+    background-color: #fff0e6;
+}
+
+.hold {
+    border: solid #ccc 4px;
+}
+
+.hovered {
+    background: dimgray;
+    border-style: dashed;
+}
+
+.hidden {
+    display: none;
+}
